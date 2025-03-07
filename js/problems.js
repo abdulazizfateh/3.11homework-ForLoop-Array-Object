@@ -11,16 +11,16 @@
 // // 10. const user = {username: "coder123", password: "12345", email: "coder@example.com"};
 // // Quyidagi user obyektidan password xususiyatini o'chiring.
 
-// // TASK 1
-// const numbers = [1, 2, 3, 4, 5, 6];
-// const squareOddNums = function (numbers) {
-//     for (let i = 0; i < numbers.length; i++) {
-//         if (i % 2 !== 0) {
-//             console.log(`Toq sonlar: ${i}`);
-//         }
-//     }
-// }
-// squareOddNums(numbers);
+// TASK 1
+const numbers = [1, 2, 3, 4, 5, 6];
+const squareOddNums = function (numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        if (i % 2 !== 0) {
+            console.log(`Toq sonlar: ${Math.pow(i, 2)}`);
+        }
+    }
+}
+squareOddNums(numbers);
 
 
 
